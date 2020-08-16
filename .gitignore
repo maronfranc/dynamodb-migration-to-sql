@@ -1,0 +1,6 @@
+node_modules
+config/knexfile.ts
+debug/*
+!debug/.gitkeep
+.env
+yarn.lock
