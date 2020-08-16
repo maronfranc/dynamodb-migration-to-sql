@@ -20,6 +20,7 @@
     "start": "ts-node ./src/index.ts",
     "migration": "yarn knex --knexfile=./config/knexfile.ts migrate:make -x ts",
     "migrate": "yarn knex --knexfile=./config/knexfile.ts migrate:latest",
-    "migrate-down": "yarn knex --knexfile=./config/knexfile.ts migrate:down"
+    "migrate-down": "yarn knex --knexfile=./config/knexfile.ts migrate:down",
+    "generate": "yarn ts-node ./cli/generate.ts"
   }
 }
